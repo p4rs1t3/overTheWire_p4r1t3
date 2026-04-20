@@ -1,1 +1,193 @@
 OverTheWire solition cheapsheet
+
+Level0=====
+The goal=== [The password for the next level is stored in a file called readme located in the home directory] log into the game using SSH === host to which you need to connect is ==== bandit.labs.overthewire.org, on port 2220. 
+ 
+ command====---
+ {Remote encrypted connections: SSH sets up a connection between a user's device and a faraway machine, often a server. It uses encryption to scramble the data that traverses the connection.}
+ 
+SSH (Secure Shell or Secure Socket Shell) is a network protocol that gives users -- particularly systems administrators -- a secure way to access a computer over an unsecured network.
+
+username ==== bandit0 
+password ==== bandit0
+
+
+Level1====
+The goal=== [The password for the next level is stored in a file called - located in the home directory]
+command====---
+ls==
+cd==
+file==
+du==
+find==
+
+user== bandit1
+password == 263JGJPfgU6LtdEvgfWU1XP5yac29mFx/
+
+
+Level2====
+The goal=== [The password for the next level is stored in a file called --spaces in this filename-- located in the home directory]
+command====---
+ls==
+cd==
+file==
+du==
+find==
+
+user== bandit2
+password == 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+NEXTLEVELPWD[-MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+]
+
+
+Level3=====
+The goal=== 
+command====---
+ls==
+cd==
+file==
+du==
+find==
+user==bandit3
+password==MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+NEXTLEVELPWD[2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+]
+
+
+Level4=====
+The goal=== 
+command====---
+ls==
+cd==
+file==
+du==
+find==[ -exec; file ls]
+find . -type f -readable | cat ./-file{00..09}
+user==bandit4
+password==2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+NEXTLEVELPWD[4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+]
+
+
+
+Level5=====
+The goal=== 
+command====---
+ls==
+cd==
+file==
+du==
+find==[ -exec; file ls]
+find . -type f -readable | cat ./-file{00..09}
+find . -type f -size 1033c ! -executable
+user==bandit5
+password==4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+NEXTLEVELPWD[HWasnPhtq9AVKe0dmk45nxy20cvUa6EG]
+
+
+Level6=====
+The goal=== 
+command====---
+ls==
+cd==
+file==
+du==
+grep==
+find==[ -exec; file ls]
+find . -type f -readable | cat ./-file{00..09}
+find . -type f -size 1033c ! -executable
+ 
+user==bandit6
+password==HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+NEXTLEVELPWD[morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj]
+
+
+
+
+Level7=====
+The goal=== 
+command====---
+ls==
+cd==
+file==
+du==
+man==
+grep==
+sort==
+uniq==
+strings==
+base64==
+tr==
+tar==
+gzip==
+bzip2==
+xxd==
+find==[ -exec; file ls]
+find . -type f -readable | cat ./-file{00..09}
+find . -type f -size 1033c ! -executable
+find / -user username -group groupname -size 33c [--2>/dev/null--]important
+grep millionth data.txt
+
+user==bandit7
+password==morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+NEXTLEVELPWD[dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+]
+
+
+Level8=====
+The goal=== 
+command====---
+ls==
+cd==
+file==
+du==
+find==[ -exec; file ls]
+find . -type f -readable | cat ./-file{00..09}
+find . -type f -size 1033c ! -executable
+find / -user username -group groupname -size 33c [--2>/dev/null--]important
+grep millionth data.txt
+sort data.txt | uniq -u
+user==bandit8
+password==fwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+NEXTLEVELPWD[4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+]
+
+
+Level9=====
+The goal=== 
+command====---
+ls==
+cd==
+file==
+du==
+find==[ -exec; file ls]
+find . -type f -readable | cat ./-file{00..09}
+find . -type f -size 1033c ! -executable
+find / -user username -group groupname -size 33c [--2>/dev/null--]important
+grep millionth data.txt
+sort data.txt | uniq -u
+user==bandit9
+password==4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+NEXTLEVELPWD[]
+
+
+
+
+Level3=====
+The goal=== 
+command====---
+ls==
+cd==
+file==
+du==
+find==[ -exec; file ls]
+find . -type f -readable | cat ./-file{00..09}
+find . -type f -size 1033c ! -executable
+find / -user username -group groupname -size 33c [--2>/dev/null--]important
+grep millionth data.txt
+sort data.txt | uniq -u
+user==bandit3
+password==
+NEXTLEVELPWD[]
