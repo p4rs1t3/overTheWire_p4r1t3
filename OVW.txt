@@ -168,11 +168,54 @@ find . -type f -size 1033c ! -executable
 find / -user username -group groupname -size 33c [--2>/dev/null--]important
 grep millionth data.txt
 sort data.txt | uniq -u
+strings data.txt | grep '===='
 user==bandit9
 password==4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+NEXTLEVELPWD[FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+]
+
+
+
+
+Level10=====
+The goal=== 
+command====---
+ls==
+cd==
+file==
+du==
+find==[ -exec; file ls]
+find . -type f -readable | cat ./-file{00..09}
+find . -type f -size 1033c ! -executable
+find / -user username -group groupname -size 33c [--2>/dev/null--]important
+grep millionth data.txt
+sort data.txt | uniq -u
+strings data.txt | grep '===='
+base64 -d data.txt
+user==bandit10
+password== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+NEXTLEVELPWD[dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr]
+
+
+
+Level11=====
+The goal=== 
+command====---
+ls==
+cd==
+file==
+du==
+find==[ -exec; file ls]
+find . -type f -readable | cat ./-file{00..09}
+find . -type f -size 1033c ! -executable
+find / -user username -group groupname -size 33c [--2>/dev/null--]important
+grep millionth data.txt
+sort data.txt | uniq -u
+strings data.txt | grep '===='
+base64 -d data.txt
+user==bandit11
+password==dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 NEXTLEVELPWD[]
-
-
 
 
 Level3=====
@@ -188,6 +231,8 @@ find . -type f -size 1033c ! -executable
 find / -user username -group groupname -size 33c [--2>/dev/null--]important
 grep millionth data.txt
 sort data.txt | uniq -u
+strings data.txt | grep '===='
+base64 -d data.txt
 user==bandit3
 password==
 NEXTLEVELPWD[]
